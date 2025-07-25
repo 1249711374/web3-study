@@ -3,6 +3,9 @@ pragma solidity ^0.8;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
 
+
+// 合约地址: 0x01e59edd055181c5b8638355414f4ffa395c1968
+
 // 讨饭合约
 contract BeggingContract is Ownable{
     constructor() Ownable(msg.sender) {
